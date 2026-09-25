@@ -18,6 +18,6 @@ Python desktop app for tracking monthly financial commitments, with a month/year
 ---
 
 #### 🛠️ Tech I use
-**Embedded:** C · ARM Cortex-M (STM32) · arm-none-eabi-gcc · Make · Renode · UART/GPIO/SysTick
-**Software:** Python (customtkinter, ReportLab) · JavaScript / Node.js · TypeScript · React
-**Tools:** Git · GitHub · Linux
+- **Embedded:** C · ARM Cortex-M (STM32) · arm-none-eabi-gcc · Make · Renode · UART/GPIO/SysTick
+- **Software:** Python (customtkinter, ReportLab) · JavaScript / Node.js · TypeScript · React
+- **Tools:** Git · GitHub · Linux
