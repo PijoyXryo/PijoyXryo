@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 150" width="1280" height="150">
+<style>
+.m{font-family:Consolas,'SF Mono',Menlo,monospace}
+.s{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+.ln{fill:none;stroke:#2b5a4a;stroke-width:2;stroke-dasharray:6 6;animation:d 1.2s linear infinite}
+@keyframes d{to{stroke-dashoffset:-12}}
+.n{fill:#0f1714;stroke:#3ddc97;stroke-width:2}
+.l{font-size:10px;letter-spacing:1.5px;fill:#6f8f84}
+</style>
+<rect x="1" y="1" width="1278" height="148" rx="14" fill="#0a100e" stroke="#1d2f29" stroke-width="2"/>
+<text x="40" y="44" class="m" font-size="11" letter-spacing="2.5" fill="#ffb547">HOW I BUILD</text>
+<text x="40" y="82" class="s" font-size="26" font-weight="800" fill="#f2f7f5">FROM DATASHEET TO <tspan fill="#3ddc97">TESTED CODE.</tspan></text>
+<text x="40" y="110" class="m" font-size="12" fill="#6f8f84">read the manual → set the registers → write the driver → verify in simulation → ship</text>
+<path class="ln" d="M745 72H1215"/>
+<g transform="translate(745 72)">
+<circle r="22" class="n"/><text y="5" text-anchor="middle" class="m" font-size="14" fill="#3ddc97">RM</text>
+<text y="42" text-anchor="middle" class="m l">READ</text></g>
+<g transform="translate(862 72)">
+<circle r="22" class="n"/><text y="5" text-anchor="middle" class="m" font-size="13" fill="#3ddc97">0x</text>
+<text y="42" text-anchor="middle" class="m l">REGISTER</text></g>
+<g transform="translate(980 72)">
+<circle r="22" class="n"/><text y="5" text-anchor="middle" class="m" font-size="13" fill="#3ddc97">.c</text>
+<text y="42" text-anchor="middle" class="m l">DRIVER</text></g>
+<g transform="translate(1097 72)">
+<circle r="22" class="n"/><text y="5" text-anchor="middle" class="m" font-size="14" fill="#3ddc97">✓</text>
+<text y="42" text-anchor="middle" class="m l">TEST</text></g>
+<g transform="translate(1215 72)">
+<circle r="22" fill="#3ddc97"/><text y="5" text-anchor="middle" class="m" font-size="14" font-weight="700" fill="#0a100e">▸</text>
+<text y="42" text-anchor="middle" class="m l">SHIP</text></g>
+</svg>
