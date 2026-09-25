@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b10"/><stop offset="1" stop-color="#0d1a17"/></linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#3ddc97" stop-opacity=".35"/><stop offset="1" stop-color="#3ddc97" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1b2a26" stroke-width="1"/></pattern>
+<style>
+.m{font-family:Consolas,'SF Mono',Menlo,monospace}
+.s{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+.tr{fill:none;stroke:#1f4a3c;stroke-width:2}
+.p{fill:none;stroke:#3ddc97;stroke-width:2.5;stroke-dasharray:14 400;animation:f 4s linear infinite}
+.p2{animation-delay:1.3s}.p3{animation-delay:2.6s}
+@keyframes f{from{stroke-dashoffset:414}to{stroke-dashoffset:0}}
+.led{animation:b 1.6s steps(1) infinite}@keyframes b{50%{opacity:.15}}
+</style>
+</defs>
+<rect width="1280" height="400" rx="14" fill="url(#bg)"/>
+<rect width="1280" height="400" rx="14" fill="url(#grid)" opacity=".6"/>
+<circle cx="1010" cy="200" r="230" fill="url(#glow)"/>
+<!-- traces -->
+<g>
+<path class="tr" d="M700 90H820L860 130H930"/><path class="p" d="M700 90H820L860 130H930"/>
+<path class="tr" d="M680 200H930"/><path class="p p2" d="M680 200H930"/>
+<path class="tr" d="M700 310H820L860 270H930"/><path class="p p3" d="M700 310H820L860 270H930"/>
+<path class="tr" d="M1090 150H1170L1200 120H1250"/><path class="p p2" d="M1090 150H1170L1200 120H1250"/>
+<path class="tr" d="M1090 250H1170L1200 280H1250"/><path class="p" d="M1090 250H1170L1200 280H1250"/>
+<path class="tr" d="M1010 120V40"/><path class="tr" d="M1010 280V360"/>
+<circle cx="700" cy="90" r="5" fill="#ffb547"/><circle cx="680" cy="200" r="5" fill="#ffb547"/><circle cx="700" cy="310" r="5" fill="#ffb547"/>
+<circle cx="1250" cy="120" r="5" fill="#ffb547"/><circle cx="1250" cy="280" r="5" fill="#ffb547"/><circle cx="1010" cy="40" r="5" fill="#ffb547"/><circle cx="1010" cy="360" r="5" fill="#ffb547"/>
+</g>
+<!-- chip -->
+<g>
+<g fill="#8fa39c">
+<rect x="944" y="110" width="4" height="180" opacity=".0"/>
+<path d="M938 128h-10v6h10zM938 152h-10v6h10zM938 176h-10v6h10zM938 200h-10v6h10zM938 224h-10v6h10zM938 248h-10v6h10zM938 266h-10v6h10z"/>
+<path d="M1082 128h10v6h-10zM1082 152h10v6h-10zM1082 176h10v6h-10zM1082 200h10v6h-10zM1082 224h10v6h-10zM1082 248h10v6h-10zM1082 266h10v6h-10z"/>
+<path d="M956 112v-10h6v10zM980 112v-10h6v10zM1004 112v-10h6v10zM1028 112v-10h6v10zM1052 112v-10h6v10z"/>
+<path d="M956 288v10h6v-10zM980 288v10h6v-10zM1004 288v10h6v-10zM1028 288v10h6v-10zM1052 288v10h6v-10z"/>
+</g>
+<rect x="938" y="112" width="144" height="176" rx="8" fill="#0f1714" stroke="#3ddc97" stroke-width="2"/>
+<circle cx="954" cy="128" r="4" fill="#2a3a35"/>
+<text x="1010" y="192" text-anchor="middle" class="m" font-size="17" font-weight="700" fill="#e6f4ee">STM32</text>
+<text x="1010" y="214" text-anchor="middle" class="m" font-size="12" fill="#6f8f84">F407 · M4</text>
+<circle class="led" cx="1010" cy="252" r="5" fill="#3ddc97"/>
+</g>
+<!-- text -->
+<g transform="translate(64 0)">
+<rect x="0" y="54" width="40" height="40" rx="8" fill="none" stroke="#3ddc97" stroke-width="2"/>
+<text x="20" y="81" text-anchor="middle" class="m" font-size="18" font-weight="700" fill="#3ddc97">H</text>
+<text x="56" y="72" class="s" font-size="17" letter-spacing="3" fill="#e6f4ee">HAFIZUL HUSNI</text>
+<text x="56" y="91" class="m" font-size="11" letter-spacing="2" fill="#6f8f84">EMBEDDED / FIRMWARE ENGINEER</text>
+<text x="0" y="180" class="s" font-size="58" font-weight="800" fill="#f2f7f5">CLOSE TO</text>
+<text x="0" y="242" class="s" font-size="58" font-weight="800" fill="#3ddc97">THE METAL.</text>
+<text x="0" y="284" class="s" font-size="18" fill="#a9bdb6">From the reference manual to working drivers and useful software.</text>
+<g class="m" font-size="12" letter-spacing="1.5" fill="#8fa39c">
+<text x="0" y="336"><tspan fill="#ffb547">▸</tspan> BARE-METAL C   <tspan fill="#ffb547">▸</tspan> ARM CORTEX-M   <tspan fill="#ffb547">▸</tspan> DRIVERS   <tspan fill="#ffb547">▸</tspan> PYTHON   <tspan fill="#ffb547">▸</tspan> WEB</text>
+</g>
+</g>
+<text x="1236" y="384" text-anchor="end" class="m" font-size="11" fill="#3b544c">0x0800_0000 / RESET_HANDLER</text>
+</svg>
