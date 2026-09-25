@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360">
+<style>
+.m{font-family:Consolas,'SF Mono',Menlo,'Courier New',monospace;font-size:19px}
+.s{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+.ln{fill:#4b5563}.k{fill:#c678dd}.c{fill:#e5c07b}.v{fill:#e06c75}.st{fill:#98c379}.f{fill:#61afef}.t{fill:#abb2bf}.cm{fill:#5c6370;font-style:italic}
+.cur{animation:b 1.1s steps(1) infinite}@keyframes b{50%{opacity:0}}
+</style>
+<rect width="1280" height="360" rx="14" fill="#0d1117"/>
+<rect x="150" y="24" width="980" height="312" rx="12" fill="#1e222a" stroke="#30363d"/>
+<path d="M150 36a12 12 0 0 1 12-12h956a12 12 0 0 1 12 12v22H150z" fill="#16191f"/>
+<circle cx="176" cy="41" r="6" fill="#ff5f57"/><circle cx="198" cy="41" r="6" fill="#febc2e"/><circle cx="220" cy="41" r="6" fill="#28c840"/>
+<rect x="250" y="30" width="130" height="28" rx="4" fill="#1e222a"/>
+<text x="266" y="49" class="s" font-size="13" fill="#d7dae0">about_me.py</text>
+<text x="1110" y="47" text-anchor="end" class="s" font-size="12" fill="#6b7280">PijoyXryo</text>
+<g class="m">
+<text x="178" y="100" class="ln">1</text><text x="220" y="100"><tspan class="k">class</tspan> <tspan class="c">Hafizul</tspan><tspan class="t">:</tspan></text>
+<text x="178" y="130" class="ln">2</text><text x="260" y="130"><tspan class="t">role</tspan>       <tspan class="t">=</tspan> <tspan class="st">"Software Engineer"</tspan></text>
+<text x="178" y="160" class="ln">3</text><text x="260" y="160"><tspan class="t">degree</tspan>     <tspan class="t">=</tspan> <tspan class="st">"Mechatronics Engineering"</tspan></text>
+<text x="178" y="190" class="ln">4</text><text x="260" y="190"><tspan class="t">location</tspan>   <tspan class="t">=</tspan> <tspan class="st">"Selangor, Malaysia"</tspan></text>
+<text x="178" y="220" class="ln">5</text><text x="260" y="220"><tspan class="t">stack</tspan>      <tspan class="t">= [</tspan><tspan class="st">"Python"</tspan><tspan class="t">, </tspan><tspan class="st">"JavaScript"</tspan><tspan class="t">, </tspan><tspan class="st">"C"</tspan><tspan class="t">]</tspan></text>
+<text x="178" y="250" class="ln">6</text>
+<text x="178" y="280" class="ln">7</text><text x="260" y="280"><tspan class="k">def</tspan> <tspan class="f">status</tspan><tspan class="t">(</tspan><tspan class="v">self</tspan><tspan class="t">):</tspan>  <tspan class="cm"># fresh graduate</tspan></text>
+<text x="178" y="310" class="ln">8</text><text x="300" y="310"><tspan class="k">return</tspan> <tspan class="st">"Open to graduate &amp; junior roles"</tspan><tspan class="cur" fill="#61afef">▍</tspan></text>
+</g>
+</svg>
