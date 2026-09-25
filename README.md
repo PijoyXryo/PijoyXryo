@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.svg" alt="Hafizul Husni, Software Engineer" width="100%">
+  <img src="./header.svg" alt="Hafizul Husni, Software Engineer" width="100%">
 </p>
 
 ## Hi, I'm Hafizul 👋
